@@ -1,0 +1,6 @@
+name = icahci
+description = Based on Bartik
+core = 7.x
+base theme = bartik
+stylesheets[all][] = css/icahci.css
+

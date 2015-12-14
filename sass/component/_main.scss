@@ -1,0 +1,283 @@
+/**
+ * Header Sass
+ */
+
+// Global style 
+body {
+	font-size: $fontSize-text;
+	color: $black-text;
+}
+
+// Carousel
+#carousel-example-generic {
+	margin-bottom:80px;
+}
+
+// Banner
+.main-banner {
+	img {
+		width: 100%;
+		margin-bottom: 86px;
+	}
+}
+
+
+// Section
+section {
+	margin-bottom: 3rem;
+	
+	p{
+		line-height: 2rem;
+	}
+	
+	.section-title {
+		border-left: 10px solid $orange-dominant;
+		padding-left: 1rem;
+		margin-bottom: 2.5rem;
+		
+		span {
+			font-size: $fontSize-light;
+		}
+	}
+	
+	.section-readmore {
+		background-color: $orange-dominant;
+		color: white;
+		font-size: $fontSize-normal;
+		margin-top: 3.000rem;
+		padding: 3px 27px 3px 27px;
+	}
+	
+}
+
+// Home > Carousel
+
+.carousel-messege {
+	position: absolute;
+	z-index: 2000;
+	background-color: rgba(255, 255, 255, 0.7);
+	//background-color: transparent;
+	height: 70%;
+	width: 70%;
+	top: 15%;
+	left: 15%;
+	padding: 49px 77px 82px 106px;
+	
+	&:before {
+		position: absolute;
+		top: 15%;
+		width: 106px;
+		border-top: 106px solid orange;
+		border-left: 106px solid orange;		
+	}
+	
+	&:after {
+		height:305px;
+		border-right: 106px solid orange;
+		border-right: 106px solid orange;
+	}
+	
+	.carousel-left {
+		float:left;
+		margin-right: 38px;
+		
+		img {
+			margin-bottom: 13px;
+		}
+		button {
+			background-color: $orange-dominant;
+			width: 105px;
+			height: 32px;
+		}		
+	}
+	
+	.carousel-right {
+		float:left;
+		
+		.title-1 {
+			font-size: $fontSize-bold;
+			margin-bottom: 0rem;
+		}
+		
+		.title-2 {
+			font-size: 3.375rem;
+			margin-bottom: 0rem;
+		}
+		
+		.title-3 {
+			font-size: $fontSize-large;
+			margin-bottom: 29px;
+		} 
+		
+		.text-1 {
+			font-size: $fontSize-light;
+			max-width: 294px;
+		}
+		
+		.readmore {
+			font-size: $fontSize-middle;
+			color: $orange-dominant;
+		}		
+	}
+}
+  
+// Home > Member
+.home-member-block {
+	margin: 0 auto;
+		
+	.home-member {
+		text-align: center;
+		
+		.home-member-name {
+			font-size: $fontSize-middle;
+		}
+		
+		.home-member-post {
+			font-size: $fontSize-light;
+			color: $grey-member;
+		}
+	}	
+}
+
+
+// Home > News
+.news{
+	img {
+		width: 100%;
+	}
+	
+	.news-title {
+		color: black;
+		font-size: $fontSize-large;
+	}
+	
+	.news-overlay {
+		background-color: rgba(255, 255, 255, 0.6);
+		height: 45%;
+		position: absolute;
+		bottom: 0%; 
+		left: 0%;
+		top: 55%;
+	}
+	
+	figcaption {
+		font-size: $fontSize-light;
+		color: $grey-subtitle;
+		float: right !important;
+	}
+		
+}
+
+// Conference
+.conference-block {
+	.conference-item-title {
+		color: $orange-dominant;
+		font-size: $fontSize-normal;
+	}
+	
+	.conference-item-date {
+		color: $grey-subtitle;
+		font-size: $fontSize-normal;
+	}
+}
+
+// Article
+.newsletter-block {
+	.newsletter-item-title {
+		font-size: $fontSize-normal;
+		color: $orange-dominant;
+	}
+}
+.article-block {
+	.article-item-title {
+		font-size: $fontSize-normal;
+		margin-bottom: 0rem;
+	}
+	
+	.article-item-url {
+		font-size: $fontSize-text;
+	}
+}
+// About us
+
+.about-rule {
+	font-size: $fontSize-middle;
+	line-height: 2rem;
+}
+ 
+// Join us
+.join-form {
+	.necessary {
+		
+		&:after {
+			content: ' *';
+			color: red;		
+		}	
+	}
+	
+	.subform {
+		background-color: $grey-form;	
+		padding: 3rem 7.25rem 3rem 7.25rem;
+		margin-bottom: 3rem;
+	}
+	
+	button {
+		color: $white-text;
+		font-size: $fontSize-large;
+		background-color: $orange-dominant;
+		padding: 5px 54px 5px 54px;
+	}
+}
+
+// Members
+.organization-block {
+	text-align: center;
+}
+
+.members-block {
+	.subtitle {
+		font-size: $fontSize-large;
+		color: $grey-subtitle;
+	}
+	
+	.post-block {
+		text-align: center;
+		line-height: 0rem;
+		padding: 2rem 0;
+		
+		.post-title {
+			color: $orange-dominant;
+			font-size: $fontSize-normal;
+			padding: 0 2rem;
+			background-color: white;
+		}
+		
+		.post-hr {
+			border-bottom: 1px solid $black-text;
+		}
+	}
+
+	
+	.member {
+		text-align: center;
+		
+		.member-avatar {
+			margin-bottom: 0.5rem;
+		}
+		
+		.member-name {
+			font-size: $fontSize-normal;
+			margin-bottom: 0rem;
+		}
+		
+		.member-post {
+			font-size: $fontSize-normal;
+			color: $orange-dominant;
+			margin-bottom: 0rem;
+		}
+		
+		.member-org {
+			color: $grey-member;
+		}
+	}
+}

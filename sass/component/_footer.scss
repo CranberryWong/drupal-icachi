@@ -1,0 +1,27 @@
+/**
+ * Footer Sass
+ */
+ 
+footer {
+	background-color: $black-footer;
+	color: $white-text;
+	padding-top: 76px;
+	border-top: 10px solid $orange-dominant;
+}
+
+.footer-section {
+	h4 {
+		margin-bottom: $fontSize-large;
+	}
+	
+	li {
+		color: $grey-footer;
+	}
+}
+
+.footer-cite {
+	text-align: center;	
+	hr {
+		border-color: $grey-footer;
+	}
+}

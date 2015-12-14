@@ -1,0 +1,31 @@
+/**
+ * Header Sass
+ */
+ 
+.sign-banner {
+	background-color: $orange-dominant;
+	a {
+		color: $white-text;
+	}
+}
+
+header {
+	nav {
+		ul {
+			a {
+				color: $black-menu;
+				
+				&:hover {
+					color: $orange-dominant;
+				}
+			}
+			.active a {
+				color: $orange-dominant !important;
+			}
+		}
+	}
+}
+
+nav {
+	padding-top: 1rem;
+}

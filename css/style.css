@@ -1,0 +1,220 @@
+/**
+ * Settings
+ * Colors & Fontsize
+ */
+/**
+ * Colors
+ */
+/**
+ * Fontsize
+ */
+/**
+ * Images
+ */
+/**
+ * Header Sass
+ */
+.sign-banner {
+  background-color: #ec6941; }
+  .sign-banner a {
+    color: #ffffff; }
+
+header nav ul a {
+  color: #646464; }
+  header nav ul a:hover {
+    color: #ec6941; }
+header nav ul .active a {
+  color: #ec6941 !important; }
+
+nav {
+  padding-top: 1rem; }
+
+/**
+ * Header Sass
+ */
+body {
+  font-size: 0.875rem;
+  color: #464646; }
+
+#carousel-example-generic {
+  margin-bottom: 80px; }
+
+.main-banner img {
+  width: 100%;
+  margin-bottom: 86px; }
+
+section {
+  margin-bottom: 3rem; }
+  section p {
+    line-height: 2rem; }
+  section .section-title {
+    border-left: 10px solid #ec6941;
+    padding-left: 1rem;
+    margin-bottom: 2.5rem; }
+    section .section-title span {
+      font-size: 0.75rem; }
+  section .section-readmore {
+    background-color: #ec6941;
+    color: white;
+    font-size: 1.25rem;
+    margin-top: 3.000rem;
+    padding: 3px 27px 3px 27px; }
+
+.carousel-messege {
+  position: absolute;
+  z-index: 2000;
+  background-color: rgba(255, 255, 255, 0.7);
+  height: 70%;
+  width: 70%;
+  top: 15%;
+  left: 15%;
+  padding: 49px 77px 82px 106px; }
+  .carousel-messege:before {
+    position: absolute;
+    top: 15%;
+    width: 106px;
+    border-top: 106px solid orange;
+    border-left: 106px solid orange; }
+  .carousel-messege:after {
+    height: 305px;
+    border-right: 106px solid orange;
+    border-right: 106px solid orange; }
+  .carousel-messege .carousel-left {
+    float: left;
+    margin-right: 38px; }
+    .carousel-messege .carousel-left img {
+      margin-bottom: 13px; }
+    .carousel-messege .carousel-left button {
+      background-color: #ec6941;
+      width: 105px;
+      height: 32px; }
+  .carousel-messege .carousel-right {
+    float: left; }
+    .carousel-messege .carousel-right .title-1 {
+      font-size: 1.875rem;
+      margin-bottom: 0rem; }
+    .carousel-messege .carousel-right .title-2 {
+      font-size: 3.375rem;
+      margin-bottom: 0rem; }
+    .carousel-messege .carousel-right .title-3 {
+      font-size: 1.5rem;
+      margin-bottom: 29px; }
+    .carousel-messege .carousel-right .text-1 {
+      font-size: 0.75rem;
+      max-width: 294px; }
+    .carousel-messege .carousel-right .readmore {
+      font-size: 1rem;
+      color: #ec6941; }
+
+.home-member-block {
+  margin: 0 auto; }
+  .home-member-block .home-member {
+    text-align: center; }
+    .home-member-block .home-member .home-member-name {
+      font-size: 1rem; }
+    .home-member-block .home-member .home-member-post {
+      font-size: 0.75rem;
+      color: #b4b4b4; }
+
+.news img {
+  width: 100%; }
+.news .news-title {
+  color: black;
+  font-size: 1.5rem; }
+.news .news-overlay {
+  background-color: rgba(255, 255, 255, 0.6);
+  height: 45%;
+  position: absolute;
+  bottom: 0%;
+  left: 0%;
+  top: 55%; }
+.news figcaption {
+  font-size: 0.75rem;
+  color: #bdbdbd;
+  float: right !important; }
+
+.conference-block .conference-item-title {
+  color: #ec6941;
+  font-size: 1.25rem; }
+.conference-block .conference-item-date {
+  color: #bdbdbd;
+  font-size: 1.25rem; }
+
+.newsletter-block .newsletter-item-title {
+  font-size: 1.25rem;
+  color: #ec6941; }
+
+.article-block .article-item-title {
+  font-size: 1.25rem;
+  margin-bottom: 0rem; }
+.article-block .article-item-url {
+  font-size: 0.875rem; }
+
+.about-rule {
+  font-size: 1rem;
+  line-height: 2rem; }
+
+.join-form .necessary:after {
+  content: ' *';
+  color: red; }
+.join-form .subform {
+  background-color: #f8f8f8;
+  padding: 3rem 7.25rem 3rem 7.25rem;
+  margin-bottom: 3rem; }
+.join-form button {
+  color: #ffffff;
+  font-size: 1.5rem;
+  background-color: #ec6941;
+  padding: 5px 54px 5px 54px; }
+
+.organization-block {
+  text-align: center; }
+
+.members-block .subtitle {
+  font-size: 1.5rem;
+  color: #bdbdbd; }
+.members-block .post-block {
+  text-align: center;
+  line-height: 0rem;
+  padding: 2rem 0; }
+  .members-block .post-block .post-title {
+    color: #ec6941;
+    font-size: 1.25rem;
+    padding: 0 2rem;
+    background-color: white; }
+  .members-block .post-block .post-hr {
+    border-bottom: 1px solid #464646; }
+.members-block .member {
+  text-align: center; }
+  .members-block .member .member-avatar {
+    margin-bottom: 0.5rem; }
+  .members-block .member .member-name {
+    font-size: 1.25rem;
+    margin-bottom: 0rem; }
+  .members-block .member .member-post {
+    font-size: 1.25rem;
+    color: #ec6941;
+    margin-bottom: 0rem; }
+  .members-block .member .member-org {
+    color: #b4b4b4; }
+
+/**
+ * Footer Sass
+ */
+footer {
+  background-color: #282828;
+  color: #ffffff;
+  padding-top: 76px;
+  border-top: 10px solid #ec6941; }
+
+.footer-section h4 {
+  margin-bottom: 1.5rem; }
+.footer-section li {
+  color: #c3c3c3; }
+
+.footer-cite {
+  text-align: center; }
+  .footer-cite hr {
+    border-color: #c3c3c3; }
+
+/*# sourceMappingURL=style.css.map */
